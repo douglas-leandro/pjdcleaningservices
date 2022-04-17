@@ -53,29 +53,33 @@
 	</header> 
 	
 	<div class="container">	
-		<form>
+	<h1>Send Us A Message</h1>
+		<form class="needs-validation" action="done.html" method="get" novalidate>
 			<div class = "row">
 				<div class="col mb-3">
 					<label class="form-label">Phone</label>
 					<input type="tel" id="phoneContact" class="form-control-plaintext" value="+353 89 243 2878" readonly>
 				</div>
 				<div class="col mb-3">
-					<div id="emailContact" class="form-text">
-						info@pjdcleaningservices.ie
-					</div>
+					<label class="form-label">Email</label>
+					<input type="email" id="emailContact" class="form-control-plaintext" value="info@pjdcleaningservices.ie" readonly>
 				</div>
-			
+			</div>	
 			<div class="mb-3">
 				<label class="form-label"></label>
-				<input class="form-control" placeholder="Name">
+				<input class="form-control" placeholder="Name" required>
+				<div class="valid-feedback"></div>
 			</div>
 			<div class="mb-3">
 				<label class="form-label"></label>
-				<input class="form-control" type="email" placeholder="Email">
+				<input class="form-control" type="email" placeholder="Email" required>
+				<div class="invalid-feedback">
+					Please provide a valid email (Ex:xStudent@ncirl.ie). 
+				</div>
 			</div>
 			<div class="mb-3">
 				<label class="form-label"></label>
-				<select class="form-select form-select">
+				<select class="form-select form-select" required>
 					<option selected>Subject</option>
 					<option>Testimonial</option>
 					<option>Services questions</option>						
@@ -86,11 +90,10 @@
 			</div>				
 			<div class="mb-3">
 				<label class="form-label" ></label>
-				<textarea class="form-control" rows="5" placeholder="Your message here"></textarea>
+				<textarea class="form-control" rows="5" placeholder="Your message here" required></textarea>
 			</div>
 			<div class="mb-3">
 				<button type="submit" class="btn btn-success">Send Message</button>
-			</div>
 			</div>
 		</form>
 	</div>
@@ -100,6 +103,10 @@
 	  <small>Copyright &copy; Web Development and Cliente Side Scripting - CA3</small>
 	</div>
 	</footer>
+	
+	<script src="js/formValidation.js"></script>
+	
 </body>
+
 
 </html>

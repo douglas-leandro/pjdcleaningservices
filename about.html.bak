@@ -29,9 +29,9 @@
 			
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-				<div class="container-fluid">
+				<div class="container">
 					<a class="navbar-brand" href="index.html">
-						<img src="img/iconpage.ico" class="img-fluid" width="30" height="30" class="d-inline-block align-top"
+						<img src="img/iconpage.ico" width="30" height="30" class="d-inline-block align-top"
 							alt="PJD Cleaning Services">
 						PJD Cleaning Services
 					</a>
@@ -67,8 +67,8 @@
 	        <div class="twelvecol last">
 	          <img id="aboutImage" src="img/aboutUs.jpg" alt="About us photo" />
 	          <p class="about">PJD started its activities in 2011 with its own unit in the Dublin city. In a short time, we expand our business across Ireland. Nowadays, we have more than 20 units. PJD was founded by three friends who used to work together as a cleaner and saw an opportunity to found their own business.
-			  </br>The design of the business was based on the realization of the current strong demand in Ireland for services provided in homes in all areas, notably for services related to the organization, maintenance and daily cleaning of homes, offices, clinics, etc...
-			  </br> We have an excellent team, formed by highly qualified professionals, who are constantly updating and improving, in order to exceed the expectations of our customers. 
+			  <br>The design of the business was based on the realization of the current strong demand in Ireland for services provided in homes in all areas, notably for services related to the organization, maintenance and daily cleaning of homes, offices, clinics, etc...
+			  <br> We have an excellent team, formed by highly qualified professionals, who are constantly updating and improving, in order to exceed the expectations of our customers. 
 			  </p>
 	        </div>
 	      </div>
